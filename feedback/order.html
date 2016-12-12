@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Order Page!</title>
+</head>
+<body>
+<form action="processorder.php" method="post">
+<table border=1>
+<tr bgcolor="#cccccc" align="center">
+	<th width="150">Items</td>
+	<th width="50">Quantity Ordered</td>
+</tr>	
+<tr>
+	<td>Mobile</td>
+	<td align="center"><input type="text" name="mqty">
+</tr>
+<tr>
+	<td>Laptop</td>
+	<td align="center"><input type="text" name="lqty">
+</tr>
+<tr>
+	<td>Tablet</td>
+	<td align="center"><input type="text" name="tqty">
+</tr>
+<tr>
+	<td >Where did you first heard about us?</td>
+	<td><select name="source">
+		<option value="a">Internet</option>
+		<option value="b">Newspaper</option>
+		<option value="c">Magazine</option>
+		<option value="d">Other Sources</option>
+<tr>
+	<td>Address</td>
+	<td><input type="text" name="address">
+</tr>	
+<tr>
+	<td colspan="2" align="center"><input type="submit" value="Submit Order">
+</tr>
+</table>
+</form>
+</html>

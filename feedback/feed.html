@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>User Feedback</title>
+	<link type="text/css" rel="stylesheet" href="../styles/main.css"/>
+<link type="text/css" rel="stylesheet" href="../styles/contStyles.css"/>
+</head>
+
+<body>
+<?php 
+	include("../includes/header.php");
+?>
+
+
+<div id="container" style="background-color:#eee;">
+<form action="processfeedback.php" method="post">
+<center><img src="head.png"><br>
+<br/><br/><br/>
+<h3>Please tell us what you think.</h3></center>
+<br><br>
+<div id="wrap" style="width:325px; margin: 0 auto; font:16px Tahoma">
+Your Name:          <input type="text" name="cname"><br/></br>
+University Name:    <input type="text" name="uname"><br/></br>
+Your e-mail address:<input type="text" name="email"><br/></br>
+Your Feedback:<br/><textarea rows="7" cols="37" name="feed"></textarea><br/>
+<center> <input type="submit" value="Submit Feedback"> <input type="reset" value="Reset"></center>
+</div>
+</form></div>
+
+<?php 
+	include("../includes/footer.php");
+?>
+
+</body>
+</html>
+</html>

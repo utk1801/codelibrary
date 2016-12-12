@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+/*Inside Container Styles*/
+.left
+{
+	position:relative;
+	min-height:750px;
+	width:400px;
+	background-color:#00F;
+	float:left;
+}
+.right
+{
+	position:relative;
+	min-height:785px;
+	width:200px;
+	background-color:#099;
+	float:right;
+}
+.right_top
+{
+	position:relative;
+	height:680px;
+	width:180px;
+	padding:10px 10px;
+	background-color:#603;
+	
+}
+.btns
+{
+	height:30px;
+	padding:10px 0px 0px 10px;
+	width:inherit-10px;
+	background-color:#CCC;
+}
+.center
+{
+	position:relative;
+	min-height:750px;
+	width:600px;
+	background-color:#9C0;
+	float:left;
+}
+.left_top
+{
+	height:480px;
+	padding:20px 20px 0px 0px;
+	width:inherit-20px;
+	background-color:#fff;
+}
+.left_top h1
+{
+	font-size:40px;
+	color:#333;
+}
+.left_top h3
+{
+	font-weight:lighter;
+}
+.left_top p
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:16px;
+	text-align:justify;
+	margin-top:50px;
+	font-weight:lighter;
+	color:#666;
+}
+.left_bottom
+{
+	height:265px;
+	width:inherit-20;
+	background-color:#E6E6E6;
+	padding:10px 10px 10px 10px;
+}
+.imp_box
+{
+	
+	height:110px;
+	width:120px;
+	background-color:#5B002E;
+	float:left;
+	margin-top:10px;
+	
+}
+.imp_box h1
+{
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	height:30px;
+	margin:35px auto;
+
+	
+}
+.imp_box_2 h1
+{
+	font-size:36px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	height:30px;
+	margin:35px auto;
+
+	
+}
+.imp_box_2
+{
+	
+	height:110px;
+	width:120px;
+	background-color:#5B002E;
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+.left_bottom h4
+{
+	color:#5B002E;
+	border-bottom:solid 2px #5B002E;
+	
+}
+.right_top h4
+{
+	color:#5B002E;
+	border-bottom:solid 2px #fff;
+	;
+	text-align:right;
+	
+}
+.high_box
+{
+	height:158px;
+	margin-top:10px;
+	width:inherit-2px;
+	background-color:#FFF;
+	border:solid 1px #FFF;
+}
+.high_box_img
+{
+	height:98px;
+	border-bottom:2px #FFF solid;
+	width:inherit;
+	overflow:hidden;
+}
+.high_details
+{
+	height:48px;
+	width:inherit-10;
+	padding:5px 5px;
+	background-color:#CCC;
+}
+.high_details p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+}
+#cont_header_img
+{
+	position:relative;
+	height:400px;
+	width:inherit;
+	background-color:#F00;
+	overflow:hidden;
+}
+#cont_bottom
+{
+	position:relative;
+	height:385px;
+	width:inherit;
+	background:#99F;
+}

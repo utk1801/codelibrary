@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header_img
+{
+	height:250px;
+	width:inherit;
+	background-color:#666;
+	overflow:hidden;
+	border-bottom:#666 solid 5px;
+}
+.header_img img
+{
+	height:250px;
+	width:1000px;
+	
+	
+}
+.art_left
+{
+	position:relative;
+	min-height:750px;
+	width:1000px;
+
+	float:left;
+}
+.art_left_top
+{
+	height:auto;
+	padding:20px 20px 0px 0px;
+	width:inherit-20px;
+	background-color:#fff;
+}
+.art_left_top p
+{
+	font-family:Segoe UI Semilight,Helvetica,Arial,'Sans-Serif';
+	margin-top:20px;
+}
+.art_left_top p:first-letter
+{
+	margin-left:30px;
+}

@@ -1,0 +1,4 @@
+15:11 13th December 2013	2 tablets 	5 mobiles 	1 laptops 	120000	asads
+15:11 13th December 2013	2 tablets 	12 mobiles 	1 laptops 	190000	sec k1070
+15:12 13th December 2013	22 tablets 	15 mobiles 	1 laptops 	520000	2ss
+15:14 13th December 2013	21 tablets 	2 mobiles 	21 laptops 	1175000	sec
